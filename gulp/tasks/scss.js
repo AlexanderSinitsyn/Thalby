@@ -20,6 +20,7 @@ export const scss = ()=> {
         overrideBrowsersList: ["last 3 versions"],
         cascade: true
     }))
+    .pipe(cleanCss())
     .pipe(rename({
         extname: '.min.css'
     }))

@@ -1,3 +1,1 @@
-.hello {
-  background-color: aqua;
-}
+@import url(https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap);*{font-family:Roboto;margin:0;padding:0}.container{width:1280px;margin:0 auto}header{width:100%;height:56px}header .wrapper{width:1064px;height:56px;margin:0 auto;display:flex;flex-direction:row;justify-content:space-between}header .wrapper .menu{width:423px;padding:14px 15px 14px 14px;margin-right:83px;display:flex;flex-direction:row;justify-content:space-between}header .wrapper .menu a{font-weight:700;font-size:16px;text-decoration:none;color:#1c1b1b}header .wrapper .logo{margin:16px 379px 15px 0}header .wrapper .navigation{width:119px;display:flex;flex-direction:row}header .wrapper .navigation a{width:21px;height:20px;text-decoration:none;margin-top:18px;margin-right:15px}header .wrapper .navigation .searcher{margin-top:8px;margin-bottom:8px;margin-right:7px}header .wrapper .navigation .lock{margin-top:7px;margin-bottom:7px}

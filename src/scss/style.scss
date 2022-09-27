@@ -1,3 +1,18 @@
-.hello {
-    background-color: aqua;
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap');
+
+@import 'base/mixins';
+@import 'base/variables';
+
+* {
+    font-family: Roboto;
+    margin: 0;
+    padding: 0;
 }
+
+.container {
+    width: 1280px;
+    margin: 0 auto;
+}
+
+
+@import 'blocks/header';
